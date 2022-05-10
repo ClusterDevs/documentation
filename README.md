@@ -201,6 +201,42 @@ git apply ./popcorn-rpi.patch
 sudo apt install -y gcc-aarch64-linux-gnu
 ```
 
+Now follow the instructions here: https://github.com/Krish-sysadmin/kernel_deb and do that. 
+
+On each of these booted into popcorn enabled pis 
+
+```
+sudo mkdir /etc/popcorn
+sudo touch /etc/popcorn/nodes
+sudo vim /etc/popcorn/nodes
+
+```
+
+In the "nodes" file the IPs should be listed as 
+
+x86's IP address
+...... others
+
+....... others
+
+Edit grub like 
+
+```
+sudo vim /etc/default/grub
+
+```
+
+Make sure the first 3 lines are like 
+
+```
+GRUB_DEFAULT=0
+#GRUB_TIMEOUT_STYLE=hidden
+GRUB_TIMEOUT=-1
+```
+``sudo update-grub2``
+``sudo reboot``
+
+If grub file does not exist then just email/message me. We can't afford to mess with the initramfs, bootloader or kernel
 
 
 
