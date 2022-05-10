@@ -256,6 +256,12 @@ sudo chown <ID OUTPUTTED BY id command> /usr/local/popcorn
 ```
 The compiler, including supporting libraries and tools, is now installed at <POPCORN PATH>. You can use the the provided Makefile in "popcorn-compiler/util/Makefile.pyalign.template" to build progrms. The makefile template expects that the entire application's source is contained in a single folder.
 
+            
+Run applications finally
+            - https://popcornlinux-doc.readthedocs.io/en/latest/run_applications.html
+            
+            
+            
 
 Command issues you might face:
 - Segfault in the Migration Library Due to Executable Stack
