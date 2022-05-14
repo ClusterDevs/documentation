@@ -6,6 +6,13 @@ The IP addresses with corresponding MAC addresses - check MAC address by "ip add
 
 ![image](https://user-images.githubusercontent.com/75043245/167693757-d0b0a638-a1c2-4dd0-baae-dc91c1d52283.png)
 
+Hostname formats
+
+nodes:
+- rpi-node1
+- rpi-node2
+- rpi-node3
+- rpi-node4 (yes, dragonboard so not really, but for uniformity)
 
 To learn more about Linux:
 
