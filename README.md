@@ -8,7 +8,7 @@ The IP addresses with corresponding MAC addresses - check MAC address by "ip add
 
 Hostname formats
 
-nodes:
+nodes (hostname, username & password):
 - rpi-node1
 - rpi-node2
 - rpi-node3
