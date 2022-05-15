@@ -9,9 +9,9 @@ The IP addresses with corresponding MAC addresses - check MAC address by "ip add
 Hostname formats
 
 nodes (hostname, username & password):
-- rpi-node1
-- rpi-node2
-- rpi-node3
+- rpi-node1 (labeled physically as 1)
+- rpi-node2 (labeled physically as M)
+- rpi-node3 (labeled physically as 3)
 - rpi-node4 (yes, dragonboard so not really, but for uniformity)
 
 To learn more about Linux:
