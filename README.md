@@ -6,6 +6,13 @@ The IP addresses with corresponding MAC addresses - check MAC address by "ip add
 
 ![image](https://user-images.githubusercontent.com/75043245/167693757-d0b0a638-a1c2-4dd0-baae-dc91c1d52283.png)
 
+
+Setup the wpa_supplicants.conf file using USB hub
+
+- https://www.raspberrypi-spy.co.uk/2017/04/manually-setting-up-pi-wifi-using-wpa_supplicant-conf/
+- https://linuxhint.com/rasperberry_pi_wifi_wpa_supplicant/
+- https://www.raspberrypi.com/documentation/computers/configuration.html
+
 Hostname formats
 
 nodes (hostname, username & password):
