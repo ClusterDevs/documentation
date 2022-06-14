@@ -364,6 +364,8 @@ static domain_name_servers=8.8.8.8
 Notes:
             
 theipaddress = the ip address you were given
+            
+            
 therouteraddress = the router IP address for the ethernet thing which the Network Manager knows            
    
             - then in the terminal/command interface: do sudo systemctl stop wpa_supplicant && sudo systemctl disable wpa_supplicant
