@@ -328,8 +328,11 @@ Get ethernet hardware (hub and cables)
             
 List of ethernet mac addresses: (ignore first part, that's just the interface name)
             - enp2s0 - f8:bc:12:8c:fc:7a 
+            
             - eth0 - e4:5f:01:4a:11:68
+            
             - eth0 - e4:5f:01:4a:11:5c
+            
             - eth0 - e4:5f:01:4a:11:17
             
 How to connect to Pis from main computer? - SSH = CONNECT
