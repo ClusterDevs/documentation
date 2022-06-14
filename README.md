@@ -326,7 +326,6 @@ Contact me:
 
 Get ethernet hardware (hub and cables)
             
-            
 List of ethernet mac addresses: (ignore first part, that's just the interface name)
             
             
@@ -339,52 +338,44 @@ List of ethernet mac addresses: (ignore first part, that's just the interface na
             - eth0 - e4:5f:01:4a:11:17
             
 How to connect to Pis from main computer? - SSH = CONNECT
-            
             - Example: ssh rpi-node1@rpi-node1.local
-            
             - the nodes are rpi-node1, rpi-node2, rpi-node3
-            
             RPI means raspberry pi
-            
 
            
 Get a list of IP addresses (fixed, static) for each MAC address!
                        
 For each computer
-            
             - run the command - ip addr
-            
             - whatever MAC address you see for that rpi-node1 or whatever the IP address is the corresponding one
             
 Now for each computer including the master to assign the static ip address:
             - for the master - unplug the wifi card (says COMFAST) and return it to Mr Tallifer. Easiest is to click Wifi logo and Edit connections and delete the active wifi connection
-            
             - for the raspberry pis 
-            
-            - First, sudo nano /etc/dhcpcd.conf
+            - First, sudo nano /etc/dhcpcd.conf and deal with these lines 
 
  
 interface eth0
-            
 static ip_address=theipaddress
-            
 static routers=therouteraddress
-            
 static domain_name_servers=8.8.8.8
+
             
+Notes:
             
 theipaddress = the ip address you were given
-            
 therouteraddress = the router IP address for the ethernet thing which the Network Manager knows            
    
-sudo systemctl stop wpa_supplicant 
-sudo systemctl disable wpa_supplicant
+            - then in the terminal/command interface: do sudo systemctl stop wpa_supplicant && sudo systemctl disable wpa_supplicant
 
 Whenever something says permission denied use sudo.
-            
 
             - now in /etc/popcorn/nodes for each computer after SSHing do sudo nano /etc/popcorn/nodes
             
-            
             - For each computer in that file put in line seperated lists of all the IP addresses of the computers! IN THE SAME ORDER
+
+            
+            
+            
+GOOD LUCK!
             
