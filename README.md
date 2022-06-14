@@ -9,11 +9,7 @@ The IP addresses with corresponding MAC addresses - check MAC address by "ip add
 
 Main computer password: qKaT%*&6R41111
 
-Setup the wpa_supplicants.conf file using USB hub
 
-- https://www.raspberrypi-spy.co.uk/2017/04/manually-setting-up-pi-wifi-using-wpa_supplicant-conf/
-- https://linuxhint.com/rasperberry_pi_wifi_wpa_supplicant/
-- https://www.raspberrypi.com/documentation/computers/configuration.html
 
 Hostname formats
 
@@ -91,6 +87,15 @@ ossyNMMMNyMMhsssssssssssssshmmmhssssssso   CPU: Very powerful/benchmark it (20 c
 
 ```
 
+
+<details> 
+<summary>Click to expand setup details - this stuff has already been done </summary>
+            
+Setup the wpa_supplicants.conf file using USB hub
+
+- https://www.raspberrypi-spy.co.uk/2017/04/manually-setting-up-pi-wifi-using-wpa_supplicant-conf/
+- https://linuxhint.com/rasperberry_pi_wifi_wpa_supplicant/
+- https://www.raspberrypi.com/documentation/computers/configuration.html
 For the x86 ("normal" Intel/AMD machine in the cluster):
 
 
@@ -306,9 +311,11 @@ cp ep_x86-64 ep
 ```
 Now on the main x86  machine do ./ep after chmod +x ./ep (making it executable)
 
-- 
+</details>
 
 Contact me:
 
-- Email
+- Email me at krish.jain@disroot.org
+            
+
 
