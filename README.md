@@ -1,5 +1,11 @@
 **Keep calm and build an SSI cluster**
 
+Team:
+- Krish Jain
+- Marcus
+- Thomas
+- Isa
+
 The IP addresses with corresponding MAC addresses - check MAC address by "ip addr" in terminal and then see it next to wlan... (for wifi) or eth.. (for ethernet)
 
 ![image](https://user-images.githubusercontent.com/75043245/167693745-a349a76a-73e1-4756-9962-7deabe60f717.png)
@@ -8,7 +14,6 @@ The IP addresses with corresponding MAC addresses - check MAC address by "ip add
 
 
 Main computer password: qKaT%*&6R41111
-
 
 
 Hostname formats
@@ -317,5 +322,14 @@ Contact me:
 
 - Email me at krish.jain@disroot.org
             
+**Things Thomas must do:**
 
+Get ethernet hardware (hub and cables)
+            
+List of ethernet mac addresses: (ignore first part, that's just the interface name)
+           
+            
+For each computer
+            - run the command 
 
+            
